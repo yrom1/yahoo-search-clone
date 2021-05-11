@@ -51,17 +51,6 @@ form.example button {
     border-left: none; /* Prevent double borders */
     cursor: pointer;
 }
-  
-form.example button:hover {
-    /* Yahoo's button doesn't nothing hovered, not even shadows.*/
-}
-  
-  /* Clear floats */
-form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 /* SEARCH BAR END */
 
 /* FOOTER START */
@@ -73,7 +62,7 @@ form.example::after {
     font-size: 11px;
     text-align: center;
     color: #1d1da3;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 ul {
