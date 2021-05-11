@@ -26,20 +26,21 @@ main, body {
 /* SEARCH BAR START */
 * {
     box-sizing: border-box;
-  }
+}
   
   /* Style the search field */
-  form.example input[type=text] {
+form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid #7590f5;;
     float: left;
     width: 80%;
     background: #FFF;
-  }
+}
   
   /* Style the submit button */
-  form.example button {
+form.example button {
+    border-radius: 0px 10px 10px 0px;
     float: left;
     width: 20%;
     padding: 10px;
@@ -49,18 +50,18 @@ main, body {
     border: 1px solid #524dfe;
     border-left: none; /* Prevent double borders */
     cursor: pointer;
-  }
+}
   
-  form.example button:hover {
+form.example button:hover {
     /* Yahoo's button doesn't nothing hovered, not even shadows.*/
 }
   
   /* Clear floats */
-  form.example::after {
+form.example::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 /* SEARCH BAR END */
 
 /* FOOTER START */
