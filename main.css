@@ -32,10 +32,10 @@ main, body {
   form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
-    border: 1px solid grey;
+    border: 1px solid #7590f5;;
     float: left;
     width: 80%;
-    background: #f1f1f1;
+    background: #FFF;
   }
   
   /* Style the submit button */
@@ -43,17 +43,17 @@ main, body {
     float: left;
     width: 20%;
     padding: 10px;
-    background: #2196F3;
-    color: white;
+    background: #524dfe;
+    color: #FFF;
     font-size: 17px;
-    border: 1px solid grey;
+    border: 1px solid #524dfe;
     border-left: none; /* Prevent double borders */
     cursor: pointer;
   }
   
   form.example button:hover {
-    background: #0b7dda;
-  }
+    /* Yahoo's button doesn't nothing hovered, not even shadows.*/
+}
   
   /* Clear floats */
   form.example::after {
