@@ -3,12 +3,27 @@ html {
 	background: #FFF
 }
 
-body {
-    margin: 0;
-    padding: 0;
+main, body {
     font: helvetica,arial,sans-serif;
 }
 
+/* LOGO AND SEARCH BAR START */
+#bd {
+    text-align: center;
+    position: fixed;
+    width: 521px;
+    left: 50%;
+    transform: translate(-50%, 0%)
+}
+
+#yahoo-logo {
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+/* LOGO AND SEARCH BAR END */
+
+
+/* FOOTER START */
 #ft {
     height: 40px;
     position: absolute;
@@ -55,3 +70,4 @@ li {
 .small-blue-words {
     font-size: 11px;
 }
+/* FOOTER END */
