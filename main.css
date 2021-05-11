@@ -7,7 +7,7 @@ main, body {
     font: helvetica,arial,sans-serif;
 }
 
-/* LOGO AND SEARCH BAR START */
+/* LOGO START */
 #bd {
     text-align: center;
     position: fixed;
@@ -20,8 +20,21 @@ main, body {
     margin-top: 80px;
     margin-bottom: 35px;
 }
-/* LOGO AND SEARCH BAR END */
+/* LOGO END */
 
+/* SEARCH BAR START */
+#search-bar {
+
+}
+
+#search-menu {
+
+}
+
+#search-button {
+
+}
+/* SEARCH BAR END */
 
 /* FOOTER START */
 #ft {
